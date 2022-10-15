@@ -21,5 +21,4 @@ function getTextValueById(textValue) {
 function getTextElementValueById(elementId, newValue) {
     const existingTextValue = document.getElementById(elementId);
     existingTextValue.innerText = newValue;
-
 }
